@@ -3,6 +3,7 @@ package solutions.day01
 import solutions.DayTest
 import solutions.Solver
 import solutions.TestCase
+import solutions.day02.Day2
 
 internal class Day1Test : DayTest() {
 
@@ -52,5 +53,5 @@ internal class Day1Test : DayTest() {
         )
     }
 
-    override fun getSolver(): Solver = Day1()
+    override fun getSolver(): Solver = Day2()
 }
