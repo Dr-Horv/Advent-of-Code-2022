@@ -1,3 +1,5 @@
+package solutions
+
 import solutions.day01.Day1
 import java.io.File
 import kotlin.system.measureNanoTime
@@ -34,12 +36,14 @@ fun Long.toMilliseconds(): Double = this / (10e5)
 fun main(args: Array<String>) {
 
     val time = measureNanoTime {
-        val partTwo = false
+        val partTwo = true
         val day = Days.Day01
         val input = getInput(day)
         val solver = when (day) {
             Days.Day01 -> Day1()
-            else -> { throw NotImplementedError("Not implemented yet") }
+            else -> {
+                throw NotImplementedError("Not implemented yet")
+            }
         }
 
         printAnswer(day.name, solver.solve(input, partTwo))
@@ -53,7 +57,7 @@ fun main(args: Array<String>) {
 
 fun getInput(day: Days): List<String> {
     val solutions = "src/main/kotlin/solutions"
-    return File("$solutions/${day.name.lowercase()}/input").readLines()
+    return File("$solutions/${day.name.lowercase()}/input.txt").readLines()
 }
 
 
