@@ -148,16 +148,28 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GeneratorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="COOKIE" value="session=53616c7465645f5f0ec46c490c038515d293d3129142fd21cf5673cae527c3e3f8cd35a45771635153d3d9f905c6ebc008c5abd8e640669216933d58274b49b4" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="generator.GeneratorKt" />
-      <module name="Advent-of-Code-2022.main" />
-      <shortenClasspath name="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Day8Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;solutions.day08.Day8Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solutions.MainKt" />
@@ -169,10 +181,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.Day8Test" />
         <item itemvalue="Gradle.Day7Test" />
         <item itemvalue="Gradle.Day6Test" />
         <item itemvalue="Gradle.Day5Test" />
-        <item itemvalue="Kotlin.GeneratorKt" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +201,8 @@
       <workItem from="1670158685772" duration="2795000" />
       <workItem from="1670266495664" duration="9684000" />
       <workItem from="1670305527299" duration="6464000" />
+      <workItem from="1670476402366" duration="180000" />
+      <workItem from="1670476585931" duration="3663000" />
     </task>
     <servers />
   </component>
