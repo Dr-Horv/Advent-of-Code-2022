@@ -8,6 +8,8 @@ import solutions.day05.Day5
 import solutions.day06.Day6
 import solutions.day07.Day7
 import solutions.day08.Day8
+import solutions.day09.Day9
+
 import java.io.File
 import kotlin.system.measureNanoTime
 
@@ -44,7 +46,7 @@ fun main(args: Array<String>) {
 
     val time = measureNanoTime {
         val partTwo = true
-        val day = Days.Day08
+        val day = Days.Day09
         val input = getInput(day)
         val solver = when (day) {
             Days.Day01 -> Day1()
@@ -55,6 +57,7 @@ fun main(args: Array<String>) {
             Days.Day06 -> Day6()
             Days.Day07 -> Day7()
             Days.Day08 -> Day8()
+            Days.Day09 -> Day9()
             else -> {
                 throw NotImplementedError("Not implemented yet")
             }
