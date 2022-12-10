@@ -18,6 +18,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -79,7 +89,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="Day5Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Day10Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -92,7 +102,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;solutions.day05.Day5Test&quot;" />
+            <option value="&quot;solutions.day10.Day10Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,10 +191,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.Day10Test" />
         <item itemvalue="Gradle.Day8Test" />
         <item itemvalue="Gradle.Day7Test" />
         <item itemvalue="Gradle.Day6Test" />
-        <item itemvalue="Gradle.Day5Test" />
       </list>
     </recent_temporary>
   </component>
