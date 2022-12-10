@@ -42,7 +42,6 @@ class Day10 : Solver {
                     crt = pair.second
                 }
             }
-            println(x)
         }
 
         if (!partTwo) {
