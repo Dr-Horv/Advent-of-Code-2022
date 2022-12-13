@@ -7,7 +7,6 @@
     <list default="true" id="ee7f7598-7c30-4802-9a11-5a60061c8102" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/solutions/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utils/Direction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/Direction.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <recent name="solutions.day04" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Gradle.Day13Test">
     <configuration name="Day10Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -159,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Day8Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Day13Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;solutions.day08.Day8Test&quot;" />
+            <option value="&quot;solutions.day13.Day13Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Day13Test" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.Day12Test" />
         <item itemvalue="Gradle.Day11Test" />
         <item itemvalue="Gradle.Day10Test" />
-        <item itemvalue="Gradle.Day8Test" />
       </list>
     </recent_temporary>
   </component>
