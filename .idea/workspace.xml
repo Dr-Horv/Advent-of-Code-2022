@@ -7,6 +7,7 @@
     <list default="true" id="ee7f7598-7c30-4802-9a11-5a60061c8102" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/solutions/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utils/Direction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/Direction.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +136,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Day7Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Day12Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;solutions.day07.Day7Test&quot;" />
+            <option value="&quot;solutions.day12.Day12Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,10 +192,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.Day12Test" />
         <item itemvalue="Gradle.Day11Test" />
         <item itemvalue="Gradle.Day10Test" />
         <item itemvalue="Gradle.Day8Test" />
-        <item itemvalue="Gradle.Day7Test" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +247,10 @@
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
