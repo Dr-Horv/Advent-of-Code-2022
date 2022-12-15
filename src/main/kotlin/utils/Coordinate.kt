@@ -2,7 +2,11 @@ package utils
 
 import kotlin.math.abs
 
-data class Coordinate(val x: Int, val y: Int)
+data class Coordinate(val x: Int, val y: Int) {
+    override fun toString(): String {
+        return "($x, $y)"
+    }
+}
 
 operator fun Coordinate.plus(coordinate: Coordinate) = Coordinate(x + coordinate.x, y + coordinate.y)
 
