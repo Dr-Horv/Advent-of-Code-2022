@@ -16,7 +16,7 @@ abstract class DayTest {
     }
 
     fun runTests(list: List<TestCase>, isPartTwo: Boolean) {
-        val solver = getSolver();
+        val solver = getSolver()
         list.forEach {
             Assertions.assertEquals(it.expected, solver.solve(it.input, isPartTwo))
         }
