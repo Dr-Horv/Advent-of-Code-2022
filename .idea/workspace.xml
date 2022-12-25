@@ -7,7 +7,6 @@
     <list default="true" id="ee7f7598-7c30-4802-9a11-5a60061c8102" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/solutions/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/solutions/DayTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/solutions/DayTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,30 +93,7 @@
       <recent name="solutions.day04" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Day17Test">
-    <configuration name="Day15Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;solutions.day15.Day15Test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="Day16Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,6 +163,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Day18Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;solutions.day18.Day18Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solutions.MainKt" />
       <module name="Advent-of-Code-2022.main" />
@@ -196,8 +195,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Day17Test" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.Day18Test" />
+        <item itemvalue="Gradle.Day17Test" />
         <item itemvalue="Gradle.Day17Test.findCircle" />
         <item itemvalue="Gradle.Day16Test" />
       </list>
@@ -221,7 +221,7 @@
       <workItem from="1671693754232" duration="62000" />
       <workItem from="1671789522069" duration="284000" />
       <workItem from="1671789813340" duration="14108000" />
-      <workItem from="1671804196995" duration="17938000" />
+      <workItem from="1671804196995" duration="24726000" />
     </task>
     <servers />
   </component>
