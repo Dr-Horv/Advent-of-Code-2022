@@ -53,5 +53,5 @@ internal class Day1Test : DayTest() {
         )
     }
 
-    override fun getSolver(): Solver = Day2()
+    override fun getSolver(): Solver = Day1()
 }
