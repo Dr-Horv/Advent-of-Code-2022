@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee7f7598-7c30-4802-9a11-5a60061c8102" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/day20/Day20.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/day20/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/solutions/day20/Day20Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/solutions/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/solutions/Main.kt" afterDir="false" />
     </list>
@@ -97,7 +94,7 @@
       <recent name="solutions.day04" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="JUnit.Day21Test">
     <configuration name="Day20Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent-of-Code-2022.test" />
       <extension name="coverage">
@@ -109,38 +106,6 @@
       <option name="PACKAGE_NAME" value="solutions.day20" />
       <option name="MAIN_CLASS_NAME" value="solutions.day20.Day20Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day20Test.testChainMoveNegativeFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent-of-Code-2022.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solutions.day20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="solutions.day20" />
-      <option name="MAIN_CLASS_NAME" value="solutions.day20.Day20Test" />
-      <option name="METHOD_NAME" value="testChainMoveNegativeFour" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day20Test.testChainMoveNegativeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent-of-Code-2022.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solutions.day20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="solutions.day20" />
-      <option name="MAIN_CLASS_NAME" value="solutions.day20.Day20Test" />
-      <option name="METHOD_NAME" value="testChainMoveNegativeOne" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,6 +126,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day21Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent-of-Code-2022.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.day21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solutions.day21" />
+      <option name="MAIN_CLASS_NAME" value="solutions.day21.Day21Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day21Test.testCompose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent-of-Code-2022.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solutions.day21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solutions.day21" />
+      <option name="MAIN_CLASS_NAME" value="solutions.day21.Day21Test" />
+      <option name="METHOD_NAME" value="testCompose" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solutions.MainKt" />
       <module name="Advent-of-Code-2022.main" />
@@ -170,18 +166,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Day20Test" />
-      <item itemvalue="JUnit.Day20Test.testChainMoveNegativeFour" />
-      <item itemvalue="JUnit.Day20Test.testChainMoveNegativeOne" />
       <item itemvalue="JUnit.Day20Test.testChainMovePositiveOne" />
+      <item itemvalue="JUnit.Day21Test" />
+      <item itemvalue="JUnit.Day21Test.testCompose" />
       <item itemvalue="Kotlin.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day21Test" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.Day21Test.testCompose" />
         <item itemvalue="JUnit.Day20Test" />
         <item itemvalue="JUnit.Day20Test.testChainMovePositiveOne" />
-        <item itemvalue="JUnit.Day20Test.testChainMoveNegativeFour" />
-        <item itemvalue="JUnit.Day20Test.testChainMoveNegativeOne" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +199,7 @@
       <workItem from="1671693754232" duration="62000" />
       <workItem from="1671789522069" duration="284000" />
       <workItem from="1671789813340" duration="14108000" />
-      <workItem from="1671804196995" duration="52060000" />
+      <workItem from="1671804196995" duration="64172000" />
     </task>
     <servers />
   </component>
