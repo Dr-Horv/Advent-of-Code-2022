@@ -21,6 +21,7 @@ import solutions.day18.Day18
 import solutions.day19.Day19
 import solutions.day20.Day20
 import solutions.day21.Day21
+import solutions.day22.Day22
 
 import java.io.File
 import kotlin.system.measureNanoTime
@@ -59,8 +60,8 @@ fun Long.toMilliseconds(): Double = this / (10e5)
 fun main(args: Array<String>) {
 
     val time = measureNanoTime {
-        val partTwo = true
-        val day = Days.Day21
+        val partTwo = false
+        val day = Days.Day22
         val input = getInput(day)
         val solver = when (day) {
             Days.Day01 -> Day1()
@@ -84,6 +85,7 @@ fun main(args: Array<String>) {
             Days.Day19 -> Day19()
             Days.Day20 -> Day20()
             Days.Day21 -> Day21()
+            Days.Day22 -> Day22()
             else -> {
                 throw NotImplementedError("Not implemented yet")
             }

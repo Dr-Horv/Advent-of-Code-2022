@@ -4,7 +4,25 @@ enum class Direction {
     UP,
     LEFT,
     RIGHT,
-    DOWN
+    DOWN;
+
+    fun turnRight(): Direction {
+        return when(this) {
+            UP -> RIGHT
+            LEFT -> UP
+            RIGHT -> DOWN
+            DOWN -> LEFT
+        }
+    }
+
+    fun turnLeft(): Direction {
+        return when(this) {
+            UP -> LEFT
+            LEFT -> DOWN
+            RIGHT -> UP
+            DOWN -> RIGHT
+        }
+    }
 }
 
 fun Direction.toTxt() = when (this) {
